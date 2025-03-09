@@ -7,7 +7,8 @@ from babel.numbers import format_currency
 sns.set(style='dark')
 
 # load data
-all_df = pd.read_csv(""\\wsl.localhost\Ubuntu\home\hadoop\dicoding_machine_learning\reports\dashboard\all_data_prs.csv")
+all_df = pd.read_csv("/home/hadoop/dicoding_machine_learning/reports/dashboard/all_data_prs.csv")
+
 
 # konversi tipe data
 all_df["order_purchase_timestamp"] = pd.to_datetime(all_df["order_purchase_timestamp"])
