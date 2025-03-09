@@ -32,7 +32,7 @@ main_df = all_df[(all_df["order_purchase_timestamp"] >= pd.to_datetime(start_dat
                  ].copy()
 
 with st.sidebar:
-    st.image("Screenshot 2025-03-08 234803.png", width=200)
+    st.image("dashboard/Screenshot 2025-03-08 234803.png", width=200)
   
 
 # Helper function yang dibutuhkan untuk menyiapkan berbagai dataframe
