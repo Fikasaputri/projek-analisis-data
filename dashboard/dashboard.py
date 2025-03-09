@@ -7,7 +7,7 @@ from babel.numbers import format_currency
 sns.set(style='dark')
 
 # load data
-all_df = pd.read_csv("/home/hadoop/dicoding_machine_learning/reports/dashboard/all_data_prs.csv")
+all_df = pd.read_csv("dashboard/all_data_prs.csv")
 
 
 # konversi tipe data
